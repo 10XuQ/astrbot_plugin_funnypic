@@ -1,0 +1,24 @@
+{
+  "single_pic_cd": {
+    "description": "单张吊图的冷却时间（秒）",
+    "type": "int",
+    "default": 10,
+    "slider": {
+      "min": 0,
+      "max": 600,
+      "step": 1
+    },
+    "hint": "同一个用户在冷却时间内重复发送 /吊图 会被拒绝。填 0 表示不限制。"
+  },
+  "ten_pics_cd": {
+    "description": "十连抽的冷却时间（秒）",
+    "type": "int",
+    "default": 180,
+    "slider": {
+      "min": 0,
+      "max": 3600,
+      "step": 10
+    },
+    "hint": "同一个用户在冷却时间内重复发送 /吊图十连 会被拒绝。填 0 表示不限制。"
+  }
+}
